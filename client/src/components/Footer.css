@@ -1,0 +1,103 @@
+.footerContainer {
+    width: 100%;
+    background-color: black;
+    height: 461px;
+    font-weight: 500;
+
+
+
+}
+
+.inerContainer {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: auto;
+    color: #ccc;
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .inerContainer {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        padding: auto;
+        color: #ccc;
+
+
+    }
+}
+
+.Call {
+    padding-bottom: 5px;
+
+}
+
+.telefon {
+    color: #ccc;
+
+
+}
+
+.listWrapper {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+.listWrapper ul li {
+    list-style: none;
+    text-decoration: underline;
+    margin-top: 15px;
+    cursor: pointer;
+
+
+
+
+}
+
+.language {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    display: flex;
+
+}
+
+.selector {
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    background-color: #686868;
+    color: #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    /* width: 200px; */
+
+}
+
+.icon {
+    /* border-radius: 5px; */
+    padding: 0.3rem 0.5rem;
+    border: none;
+    background-color: #686868;
+    color: #ccc;
+    margin-bottom: 10px;
+    z-index: 2;
+
+    font-size: 20px;
+    color: #555;
+
+
+}

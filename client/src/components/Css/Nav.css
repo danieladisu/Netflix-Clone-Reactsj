@@ -1,0 +1,103 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    transition-timing-function: ease-in;
+
+
+
+}
+
+.nav__black {
+    background-color: #000;
+
+}
+
+
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+.nav__avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Das ist für die Navlist Kommponent */
+
+
+.ListContainer {
+    position: fixed;
+    left: 200px;
+    padding-top: 10px;
+    /* padding-bottom: 5px; */
+    object-fit: contain;
+    /* margin: 0 auto !important; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.ListContainer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ListContainer ul li {
+    color: #fff;
+    /* font-weight: 700; */
+    /* padding: 0 10px; */
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav__logo {
+        width: 60px;
+        /* margin-left: 10px; */
+
+    }
+
+    .nav__avatar {
+        /* width: 20px; */
+    }
+
+    .ListContainer ul li {
+        /* padding: 0 5px; */
+        text-decoration: none;
+    }
+
+    .ListContainer {
+
+        display: none;
+    }
+}
+
+.list__items {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list__items:hover {
+    color: #858484;
+    text-decoration: none;
+}
