@@ -11,11 +11,12 @@ This repository contains the code for a Netflix clone built using React and Node
 
 ## Live Demo
 
-To see the Netflix clone in action, visit the [Live Demo](#). 
+To see the Netflix clone in action, visit the [Live Demo](https://netflixclone1-34a09.web.app/).
+
 
 ## My Portfolio
 
-If you'd like to check out more of my work, please visit my [portfolio](#).
+If you'd like to check out more of my work, please visit my [portfolio](https://danieladisu.com/).
 
 **Note:** Remember to replace `#` with your actual Live Demo and portfolio URLs. 
 
